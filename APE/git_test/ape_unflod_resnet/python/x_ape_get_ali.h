@@ -1,0 +1,9 @@
+void * x_ape_get_ali1(void); 
+void * x_ape_get_ali2(void); 
+void * x_ape_get_ali3(void); 
+void * x_ape_get_ali4(void); 
+void * x_ape_get_ali5(void); 
+void * x_ape_get_ali6(void); 
+void * x_ape_get_ali7(void); 
+void * x_ape_get_ali8(void); 
+void * x_ape_get_ali9(void); 

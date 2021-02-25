@@ -1,0 +1,2 @@
+#use
+python generate_cmd.py gRdkf.txt cmd_data.c

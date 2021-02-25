@@ -1,0 +1,1016 @@
+	*********************************************************
+	---------------------------------------------------------
+	weight_data         = [ data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 5
+	    height        = 5
+	    channel       = 1
+	    size          = 512
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wmb_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wgs_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	src_data            = [ data_cube =>
+	    type          = 0
+	    address       = 3
+	    width         = 28
+	    height        = 28
+	    channel       = 1
+	    size          = 6272
+	    line_stride   = 224
+	    surf_stride   = 6272
+	    plane_stride  = 0
+	]
+	dst_data            = [ data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 24
+	    height        = 24
+	    channel       = 20
+	    size          = 13824
+	    line_stride   = 192
+	    surf_stride   = 4608
+	    plane_stride  = 0
+	]
+	offset_u            = 0
+	in_line_uv_stride   = 0
+	*********************************************************
+	APE FW ROI[1]: ape_conv_op_desc
+	---------------------------------------------------------
+	conv_mode          = 0
+	data_reuse         = 0
+	weight_reuse       = 0
+	skip_data_rls      = 0
+	skip_weight_rls    = 0
+	entry_per_slice    = 7
+	data_format        = 36
+	pixel_mapping      = 0
+	fetch_grain        = 1
+	batch              = 1
+	weight_format      = 0
+	data_bank          = 1
+	weight_bank        = 1
+	batch_stride       = 0
+	post_extension     = 0
+	pixel_override     = 1
+	release            = 28
+	input_width_csc    = 28
+	input_height_csc   = 28
+	input_channel_csc  = 1
+	kernel_width_csc   = 5
+	kernel_height_csc  = 5
+	kernel_channel_csc = 1
+	input_width_cmac   = 24
+	input_height_cmac  = 24
+	bytes_per_kernel   = 25
+	mean_ry            = 0
+	mean_gu            = 0
+	mean_bv            = 0
+	mean_ax            = 0
+	mean_format        = 0
+	conv_stride_x      = 1
+	conv_stride_y      = 1
+	pad_x_left         = 0
+	pad_x_right        = 0
+	pad_y_top          = 0
+	pad_y_bottom       = 0
+	dilation_x         = 1
+	dilation_y         = 1
+	pra_truncate       = 0
+	in_precision       = 0
+	out_precision      = 0
+	pad_val            = 0
+	in_cvt             =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	out_cvt            =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	exit 
+	enter
+	*********************************************************
+	---------------------------------------------------------
+	weight_data         = [ data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 5
+	    height        = 5
+	    channel       = 20
+	    size          = 25024
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wmb_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wgs_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	src_data            = [ data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 12
+	    height        = 12
+	    channel       = 20
+	    size          = 3456
+	    line_stride   = 96
+	    surf_stride   = 1152
+	    plane_stride  = 0
+	]
+	dst_data            = [ data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 8
+	    height        = 8
+	    channel       = 50
+	    size          = 3584
+	    line_stride   = 64
+	    surf_stride   = 512
+	    plane_stride  = 0
+	]
+	offset_u            = 0
+	in_line_uv_stride   = 0
+	*********************************************************
+	APE FW ROI[1]: ape_conv_op_desc
+	---------------------------------------------------------
+	conv_mode          = 0
+	data_reuse         = 0
+	weight_reuse       = 0
+	skip_data_rls      = 0
+	skip_weight_rls    = 0
+	entry_per_slice    = 12
+	data_format        = 36
+	pixel_mapping      = 0
+	fetch_grain        = 1
+	batch              = 1
+	weight_format      = 0
+	data_bank          = 1
+	weight_bank        = 2
+	batch_stride       = 0
+	post_extension     = 0
+	pixel_override     = 1
+	release            = 12
+	input_width_csc    = 12
+	input_height_csc   = 12
+	input_channel_csc  = 20
+	kernel_width_csc   = 5
+	kernel_height_csc  = 5
+	kernel_channel_csc = 20
+	input_width_cmac   = 8
+	input_height_cmac  = 8
+	bytes_per_kernel   = 500
+	mean_ry            = 0
+	mean_gu            = 0
+	mean_bv            = 0
+	mean_ax            = 0
+	mean_format        = 0
+	conv_stride_x      = 1
+	conv_stride_y      = 1
+	pad_x_left         = 0
+	pad_x_right        = 0
+	pad_y_top          = 0
+	pad_y_bottom       = 0
+	dilation_x         = 1
+	dilation_y         = 1
+	pra_truncate       = 0
+	in_precision       = 0
+	out_precision      = 0
+	pad_val            = 0
+	in_cvt             =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	out_cvt            =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	exit 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 24
+	    height        = 24
+	    channel       = 20
+	    size          = 13824
+	    line_stride   = 192
+	    surf_stride   = 4608
+	    plane_stride  = 0
+	]
+	x1_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 20
+	    size          = 40
+	    line_stride   = 16
+	    surf_stride   = 16
+	    plane_stride  = 0
+	]
+	x2_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	y_data              = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 24
+	    height        = 24
+	    channel       = 20
+	    size          = 13824
+	    line_stride   = 192
+	    surf_stride   = 4608
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_op_desc
+	---------------------------------------------------------
+	src_precision    = 0
+	dst_precision    = 0
+	lut_index        = -1
+	out_cvt          =
+	[ scale = 16397, truncate = 23, enable = 1, offset = 0 ]
+	conv_mode        = 0
+	batch_num        = 1
+	batch_stride     = 0
+	x1_op            = [ ape_sdp_op =>
+	    enable         = 1
+	    alu_type       = 2
+	    type           = 2
+	    mode           = 1
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 1
+	    alu_operand    = 0
+	    mul_operand    = 1
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	x2_op            = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	y_op             = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	exit
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 8
+	    height        = 8
+	    channel       = 50
+	    size          = 3584
+	    line_stride   = 64
+	    surf_stride   = 512
+	    plane_stride  = 0
+	]
+	x1_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 50
+	    size          = 100
+	    line_stride   = 16
+	    surf_stride   = 16
+	    plane_stride  = 0
+	]
+	x2_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	y_data              = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 8
+	    height        = 8
+	    channel       = 50
+	    size          = 3584
+	    line_stride   = 64
+	    surf_stride   = 512
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_op_desc
+	---------------------------------------------------------
+	src_precision    = 0
+	dst_precision    = 0
+	lut_index        = -1
+	out_cvt          =
+	[ scale = 19366, truncate = 26, enable = 1, offset = 0 ]
+	conv_mode        = 0
+	batch_num        = 1
+	batch_stride     = 0
+	x1_op            = [ ape_sdp_op =>
+	    enable         = 1
+	    alu_type       = 2
+	    type           = 2
+	    mode           = 1
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 1
+	    alu_operand    = 0
+	    mul_operand    = 1
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	x2_op            = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	y_op             = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	exit
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_pdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 24
+	    height        = 24
+	    channel       = 20
+	    size          = 13824
+	    line_stride   = 192
+	    surf_stride   = 4608
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 12
+	    height        = 12
+	    channel       = 20
+	    size          = 3456
+	    line_stride   = 96
+	    surf_stride   = 1152
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: pdp_op_desc
+	---------------------------------------------------------
+	precision               = 0
+	padding_value           = [
+	]
+	split_num               = 1
+	partial_in_width_first  = 0
+	partial_in_width_mid    = 0
+	partial_in_width_last   = 0
+	partial_width_first     = 0
+	partial_width_mid       = 0
+	partial_width_last      = 0
+	pool_mode               = 1
+	pool_width              = 1
+	pool_height             = 1
+	stride_x                = 2
+	stride_y                = 2
+	pad_left                = 0
+	pad_right               = 0
+	pad_top                 = 0
+	pad_bottom              = 0
+	exit 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_pdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 8
+	    height        = 8
+	    channel       = 50
+	    size          = 3584
+	    line_stride   = 64
+	    surf_stride   = 512
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 4
+	    height        = 4
+	    channel       = 50
+	    size          = 896
+	    line_stride   = 32
+	    surf_stride   = 128
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: pdp_op_desc
+	---------------------------------------------------------
+	precision               = 0
+	padding_value           = [
+	]
+	split_num               = 1
+	partial_in_width_first  = 0
+	partial_in_width_mid    = 0
+	partial_in_width_last   = 0
+	partial_width_first     = 0
+	partial_width_mid       = 0
+	partial_width_last      = 0
+	pool_mode               = 1
+	pool_width              = 1
+	pool_height             = 1
+	stride_x                = 2
+	stride_y                = 2
+	pad_left                = 0
+	pad_right               = 0
+	pad_top                 = 0
+	pad_bottom              = 0
+	exit 
+	enter
+	*********************************************************
+	---------------------------------------------------------
+	weight_data         = [ data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 4
+	    height        = 4
+	    channel       = 50
+	    size          = 400000
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wmb_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wgs_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	src_data            = [ data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 4
+	    height        = 4
+	    channel       = 50
+	    size          = 896
+	    line_stride   = 32
+	    surf_stride   = 128
+	    plane_stride  = 0
+	]
+	dst_data            = [ data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 1
+	    height        = 1
+	    channel       = 500
+	    size          = 504
+	    line_stride   = 8
+	    surf_stride   = 8
+	    plane_stride  = 0
+	]
+	offset_u            = 0
+	in_line_uv_stride   = 0
+	*********************************************************
+	APE FW ROI[1]: ape_conv_op_desc
+	---------------------------------------------------------
+	conv_mode          = 0
+	data_reuse         = 0
+	weight_reuse       = 0
+	skip_data_rls      = 0
+	skip_weight_rls    = 0
+	entry_per_slice    = 8
+	data_format        = 36
+	pixel_mapping      = 0
+	fetch_grain        = 1
+	batch              = 1
+	weight_format      = 0
+	data_bank          = 1
+	weight_bank        = 25
+	batch_stride       = 0
+	post_extension     = 0
+	pixel_override     = 0
+	release            = 4
+	input_width_csc    = 4
+	input_height_csc   = 4
+	input_channel_csc  = 50
+	kernel_width_csc   = 4
+	kernel_height_csc  = 4
+	kernel_channel_csc = 50
+	input_width_cmac   = 1
+	input_height_cmac  = 1
+	bytes_per_kernel   = 800
+	mean_ry            = 0
+	mean_gu            = 0
+	mean_bv            = 0
+	mean_ax            = 0
+	mean_format        = 0
+	conv_stride_x      = 1
+	conv_stride_y      = 1
+	pad_x_left         = 0
+	pad_x_right        = 0
+	pad_y_top          = 0
+	pad_y_bottom       = 0
+	dilation_x         = 1
+	dilation_y         = 1
+	pra_truncate       = 0
+	in_precision       = 0
+	out_precision      = 0
+	pad_val            = 0
+	in_cvt             =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	out_cvt            =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	exit 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 1
+	    height        = 1
+	    channel       = 500
+	    size          = 504
+	    line_stride   = 8
+	    surf_stride   = 8
+	    plane_stride  = 0
+	]
+	x1_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 500
+	    size          = 1000
+	    line_stride   = 16
+	    surf_stride   = 16
+	    plane_stride  = 0
+	]
+	x2_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	y_data              = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 1
+	    height        = 1
+	    channel       = 500
+	    size          = 504
+	    line_stride   = 8
+	    surf_stride   = 8
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_op_desc
+	---------------------------------------------------------
+	src_precision    = 0
+	dst_precision    = 0
+	lut_index        = -1
+	out_cvt          =
+	[ scale = 28143, truncate = 25, enable = 1, offset = 0 ]
+	conv_mode        = 0
+	batch_num        = 1
+	batch_stride     = 0
+	x1_op            = [ ape_sdp_op =>
+	    enable         = 1
+	    alu_type       = 2
+	    type           = 2
+	    mode           = 1
+	    act            = 1
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 1
+	    alu_operand    = 0
+	    mul_operand    = 1
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	x2_op            = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	y_op             = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	exit
+	enter
+	*********************************************************
+	---------------------------------------------------------
+	weight_data         = [ data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 500
+	    size          = 5024
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wmb_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wgs_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	src_data            = [ data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 1
+	    height        = 1
+	    channel       = 500
+	    size          = 504
+	    line_stride   = 8
+	    surf_stride   = 8
+	    plane_stride  = 0
+	]
+	dst_data            = [ data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 1
+	    height        = 1
+	    channel       = 10
+	    size          = 16
+	    line_stride   = 8
+	    surf_stride   = 8
+	    plane_stride  = 0
+	]
+	offset_u            = 0
+	in_line_uv_stride   = 0
+	*********************************************************
+	APE FW ROI[1]: ape_conv_op_desc
+	---------------------------------------------------------
+	conv_mode          = 0
+	data_reuse         = 0
+	weight_reuse       = 0
+	skip_data_rls      = 0
+	skip_weight_rls    = 0
+	entry_per_slice    = 16
+	data_format        = 36
+	pixel_mapping      = 0
+	fetch_grain        = 1
+	batch              = 1
+	weight_format      = 0
+	data_bank          = 1
+	weight_bank        = 1
+	batch_stride       = 0
+	post_extension     = 0
+	pixel_override     = 0
+	release            = 1
+	input_width_csc    = 1
+	input_height_csc   = 1
+	input_channel_csc  = 500
+	kernel_width_csc   = 1
+	kernel_height_csc  = 1
+	kernel_channel_csc = 500
+	input_width_cmac   = 1
+	input_height_cmac  = 1
+	bytes_per_kernel   = 500
+	mean_ry            = 0
+	mean_gu            = 0
+	mean_bv            = 0
+	mean_ax            = 0
+	mean_format        = 0
+	conv_stride_x      = 1
+	conv_stride_y      = 1
+	pad_x_left         = 0
+	pad_x_right        = 0
+	pad_y_top          = 0
+	pad_y_bottom       = 0
+	dilation_x         = 1
+	dilation_y         = 1
+	pra_truncate       = 0
+	in_precision       = 0
+	out_precision      = 0
+	pad_val            = 0
+	in_cvt             =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	out_cvt            =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	exit 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 1
+	    height        = 1
+	    channel       = 10
+	    size          = 16
+	    line_stride   = 8
+	    surf_stride   = 8
+	    plane_stride  = 0
+	]
+	x1_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 10
+	    size          = 20
+	    line_stride   = 16
+	    surf_stride   = 16
+	    plane_stride  = 0
+	]
+	x2_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	y_data              = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 1
+	    height        = 1
+	    channel       = 10
+	    size          = 16
+	    line_stride   = 8
+	    surf_stride   = 8
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_op_desc
+	---------------------------------------------------------
+	src_precision    = 0
+	dst_precision    = 0
+	lut_index        = -1
+	out_cvt          =
+	[ scale = 23714, truncate = 25, enable = 1, offset = 0 ]
+	conv_mode        = 0
+	batch_num        = 1
+	batch_stride     = 0
+	x1_op            = [ ape_sdp_op =>
+	    enable         = 1
+	    alu_type       = 2
+	    type           = 2
+	    mode           = 1
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 1
+	    alu_operand    = 0
+	    mul_operand    = 1
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	x2_op            = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	y_op             = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]

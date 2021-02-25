@@ -1,0 +1,16 @@
+DLA Net Description
+    operation_desc_index : 10
+    surface_desc_index : 10
+    dependency_graph_index : 9
+    lut_data_index : 12
+    roi_array_index : -1
+    surface_index : -1
+    stat_list_index : -1
+    reserved1 : [ -1 , 0 , 1 , 8 , -1 , -1 ]
+    num_rois : 1
+    num_operations : 140
+    num_luts : 0
+    num_addresses : 14
+    input_layer : 0
+    dynamic_roi : 0
+    reserved0 : 0

@@ -1,0 +1,1251 @@
+enter
+	*********************************************************
+	---------------------------------------------------------
+	weight_data         = [ data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 7
+	    height        = 7
+	    channel       = 3
+	    size          = 9408
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wmb_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wgs_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	src_data            = [ data_cube =>
+	    type          = 0
+	    address       = 3
+	    width         = 224
+	    height        = 224
+	    channel       = 3
+	    size          = 401408
+	    line_stride   = 1792
+	    surf_stride   = 401408
+	    plane_stride  = 0
+	]
+	dst_data            = [ data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 112
+	    height        = 112
+	    channel       = 64
+	    size          = 802816
+	    line_stride   = 896
+	    surf_stride   = 100352
+	    plane_stride  = 0
+	]
+	offset_u            = 0
+	in_line_uv_stride   = 0
+	*********************************************************
+	APE FW ROI[1]: ape_conv_op_desc
+	---------------------------------------------------------
+	conv_mode          = 0
+	data_reuse         = 0
+	weight_reuse       = 0
+	skip_data_rls      = 0
+	skip_weight_rls    = 0
+	entry_per_slice    = 56
+	data_format        = 36
+	pixel_mapping      = 0
+	fetch_grain        = 1
+	batch              = 1
+	weight_format      = 0
+	data_bank          = 25
+	weight_bank        = 1
+	batch_stride       = 0
+	post_extension     = 0
+	pixel_override     = 1
+	release            = 224
+	input_width_csc    = 224
+	input_height_csc   = 224
+	input_channel_csc  = 3
+	kernel_width_csc   = 7
+	kernel_height_csc  = 7
+	kernel_channel_csc = 3
+	input_width_cmac   = 112
+	input_height_cmac  = 112
+	bytes_per_kernel   = 147
+	mean_ry            = 0
+	mean_gu            = 0
+	mean_bv            = 0
+	mean_ax            = 0
+	mean_format        = 0
+	conv_stride_x      = 2
+	conv_stride_y      = 2
+	pad_x_left         = 3
+	pad_x_right        = 3
+	pad_y_top          = 3
+	pad_y_bottom       = 3
+	dilation_x         = 1
+	dilation_y         = 1
+	pra_truncate       = 0
+	in_precision       = 0
+	out_precision      = 0
+	pad_val            = 0
+	in_cvt             =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	out_cvt            =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	exit 
+	EXIT 
+	data idx 3  ape_cmd_queue[2].surface_addr 80001113 
+	data idx 3  ape_cmd_queue[2].op_addr 80000057 
+	EXIT 
+	data idx 3  ape_cmd_queue[3].surface_addr 80001113 
+	data idx 3  ape_cmd_queue[3].op_addr 80000057 
+	enter
+	*********************************************************
+	---------------------------------------------------------
+	weight_data         = [ data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 64
+	    size          = 16384
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wmb_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wgs_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	src_data            = [ data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	dst_data            = [ data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 56
+	    height        = 56
+	    channel       = 256
+	    size          = 802816
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	offset_u            = 0
+	in_line_uv_stride   = 0
+	*********************************************************
+	APE FW ROI[1]: ape_conv_op_desc
+	---------------------------------------------------------
+	conv_mode          = 0
+	data_reuse         = 0
+	weight_reuse       = 0
+	skip_data_rls      = 0
+	skip_weight_rls    = 0
+	entry_per_slice    = 112
+	data_format        = 36
+	pixel_mapping      = 0
+	fetch_grain        = 1
+	batch              = 1
+	weight_format      = 0
+	data_bank          = 13
+	weight_bank        = 1
+	batch_stride       = 0
+	post_extension     = 0
+	pixel_override     = 1
+	release            = 56
+	input_width_csc    = 56
+	input_height_csc   = 56
+	input_channel_csc  = 64
+	kernel_width_csc   = 1
+	kernel_height_csc  = 1
+	kernel_channel_csc = 64
+	input_width_cmac   = 56
+	input_height_cmac  = 56
+	bytes_per_kernel   = 64
+	mean_ry            = 0
+	mean_gu            = 0
+	mean_bv            = 0
+	mean_ax            = 0
+	mean_format        = 0
+	conv_stride_x      = 1
+	conv_stride_y      = 1
+	pad_x_left         = 0
+	pad_x_right        = 0
+	pad_y_top          = 0
+	pad_y_bottom       = 0
+	dilation_x         = 1
+	dilation_y         = 1
+	pra_truncate       = 0
+	in_precision       = 0
+	out_precision      = 0
+	pad_val            = 0
+	in_cvt             =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	out_cvt            =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	exit 
+	EXIT 
+	data idx 1  ape_cmd_queue[4].surface_addr 80000FD1 
+	data idx 1  ape_cmd_queue[4].op_addr 8000001D 
+	EXIT 
+	data idx 1  ape_cmd_queue[5].surface_addr 80000FD1 
+	data idx 1  ape_cmd_queue[5].op_addr 8000001D 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 112
+	    height        = 112
+	    channel       = 64
+	    size          = 802816
+	    line_stride   = 896
+	    surf_stride   = 100352
+	    plane_stride  = 0
+	]
+	x1_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 64
+	    size          = 128
+	    line_stride   = 16
+	    surf_stride   = 16
+	    plane_stride  = 0
+	]
+	x2_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	y_data              = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 112
+	    height        = 112
+	    channel       = 64
+	    size          = 802816
+	    line_stride   = 896
+	    surf_stride   = 100352
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_op_desc
+	---------------------------------------------------------
+	src_precision    = 0
+	dst_precision    = 0
+	lut_index        = -1
+	out_cvt          =
+	[ scale = 20444, truncate = 23, enable = 1, offset = 0 ]
+	conv_mode        = 0
+	batch_num        = 1
+	batch_stride     = 0
+	x1_op            = [ ape_sdp_op =>
+	    enable         = 1
+	    alu_type       = 2
+	    type           = 2
+	    mode           = 1
+	    act            = 1
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 1
+	    alu_operand    = 0
+	    mul_operand    = 1
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	x2_op            = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	y_op             = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	exit
+	EXIT 
+	data idx 1  ape_cmd_queue[6].surface_addr 80000FD1 
+	data idx 1  ape_cmd_queue[6].op_addr 8000001D 
+	EXIT 
+	data idx 1  ape_cmd_queue[7].surface_addr 80000FD1 
+	data idx 1  ape_cmd_queue[7].op_addr 8000001D 
+	EXIT 
+	data idx 0  ape_cmd_queue[8].surface_addr 80000F30 
+	data idx 0  ape_cmd_queue[8].op_addr 80000000 
+	EXIT 
+	data idx 0  ape_cmd_queue[9].surface_addr 80000F30 
+	data idx 0  ape_cmd_queue[9].op_addr 80000000 
+	EXIT 
+	data idx 4  ape_cmd_queue[10].surface_addr 800011B4 
+	data idx 4  ape_cmd_queue[10].op_addr 80000074 
+	EXIT 
+	data idx 4  ape_cmd_queue[11].surface_addr 800011B4 
+	data idx 4  ape_cmd_queue[11].op_addr 80000074 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 56
+	    height        = 56
+	    channel       = 256
+	    size          = 802816
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	x1_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 256
+	    size          = 512
+	    line_stride   = 16
+	    surf_stride   = 16
+	    plane_stride  = 0
+	]
+	x2_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	y_data              = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 56
+	    height        = 56
+	    channel       = 256
+	    size          = 802816
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_op_desc
+	---------------------------------------------------------
+	src_precision    = 0
+	dst_precision    = 0
+	lut_index        = -1
+	out_cvt          =
+	[ scale = 16959, truncate = 20, enable = 1, offset = 0 ]
+	conv_mode        = 0
+	batch_num        = 1
+	batch_stride     = 0
+	x1_op            = [ ape_sdp_op =>
+	    enable         = 1
+	    alu_type       = 2
+	    type           = 2
+	    mode           = 1
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 1
+	    alu_operand    = 0
+	    mul_operand    = 1
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	x2_op            = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	y_op             = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	exit
+	EXIT 
+	data idx 4  ape_cmd_queue[12].surface_addr 800011B4 
+	data idx 4  ape_cmd_queue[12].op_addr 80000074 
+	EXIT 
+	data idx 4  ape_cmd_queue[13].surface_addr 800011B4 
+	data idx 4  ape_cmd_queue[13].op_addr 80000074 
+	EXIT 
+	data idx 2  ape_cmd_queue[14].surface_addr 80001072 
+	data idx 2  ape_cmd_queue[14].op_addr 8000003A 
+	EXIT 
+	data idx 2  ape_cmd_queue[15].surface_addr 80001072 
+	data idx 2  ape_cmd_queue[15].op_addr 8000003A 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_pdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 112
+	    height        = 112
+	    channel       = 64
+	    size          = 802816
+	    line_stride   = 896
+	    surf_stride   = 100352
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: pdp_op_desc
+	---------------------------------------------------------
+	precision               = 0
+	padding_value           = [
+	 0
+	 0
+	 0
+	 0
+	 0
+	 0
+	 0
+	]
+	split_num               = 1
+	partial_in_width_first  = 0
+	partial_in_width_mid    = 0
+	partial_in_width_last   = 0
+	partial_width_first     = 0
+	partial_width_mid       = 0
+	partial_width_last      = 0
+	pool_mode               = 1
+	pool_width              = 2
+	pool_height             = 2
+	stride_x                = 2
+	stride_y                = 2
+	pad_left                = 0
+	pad_right               = 1
+	pad_top                 = 0
+	pad_bottom              = 1
+	exit 
+	EXIT 
+	data idx 131  ape_cmd_queue[16].surface_addr 80006193 
+	data idx 131  ape_cmd_queue[16].op_addr 80000ED7 
+	EXIT 
+	data idx 131  ape_cmd_queue[17].surface_addr 80006193 
+	data idx 131  ape_cmd_queue[17].op_addr 80000ED7 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_pdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 7
+	    height        = 7
+	    channel       = 2048
+	    size          = 100352
+	    line_stride   = 56
+	    surf_stride   = 392
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 1
+	    height        = 1
+	    channel       = 2048
+	    size          = 2048
+	    line_stride   = 8
+	    surf_stride   = 8
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: pdp_op_desc
+	---------------------------------------------------------
+	precision               = 0
+	padding_value           = [
+	 0
+	 0
+	 0
+	 0
+	 0
+	 0
+	 0
+	]
+	split_num               = 1
+	partial_in_width_first  = 0
+	partial_in_width_mid    = 0
+	partial_in_width_last   = 0
+	partial_width_first     = 0
+	partial_width_mid       = 0
+	partial_width_last      = 0
+	pool_mode               = 0
+	pool_width              = 6
+	pool_height             = 6
+	stride_x                = 1
+	stride_y                = 1
+	pad_left                = 0
+	pad_right               = 0
+	pad_top                 = 0
+	pad_bottom              = 0
+	exit 
+	EXIT 
+	data idx 5  ape_cmd_queue[18].surface_addr 80001255 
+	data idx 5  ape_cmd_queue[18].op_addr 80000091 
+	EXIT 
+	data idx 5  ape_cmd_queue[19].surface_addr 80001255 
+	data idx 5  ape_cmd_queue[19].op_addr 80000091 
+	enter
+	*********************************************************
+	---------------------------------------------------------
+	weight_data         = [ data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 64
+	    size          = 4096
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wmb_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wgs_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	src_data            = [ data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	dst_data            = [ data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	offset_u            = 0
+	in_line_uv_stride   = 0
+	*********************************************************
+	APE FW ROI[1]: ape_conv_op_desc
+	---------------------------------------------------------
+	conv_mode          = 0
+	data_reuse         = 0
+	weight_reuse       = 0
+	skip_data_rls      = 0
+	skip_weight_rls    = 0
+	entry_per_slice    = 112
+	data_format        = 36
+	pixel_mapping      = 0
+	fetch_grain        = 1
+	batch              = 1
+	weight_format      = 0
+	data_bank          = 13
+	weight_bank        = 1
+	batch_stride       = 0
+	post_extension     = 0
+	pixel_override     = 1
+	release            = 56
+	input_width_csc    = 56
+	input_height_csc   = 56
+	input_channel_csc  = 64
+	kernel_width_csc   = 1
+	kernel_height_csc  = 1
+	kernel_channel_csc = 64
+	input_width_cmac   = 56
+	input_height_cmac  = 56
+	bytes_per_kernel   = 64
+	mean_ry            = 0
+	mean_gu            = 0
+	mean_bv            = 0
+	mean_ax            = 0
+	mean_format        = 0
+	conv_stride_x      = 1
+	conv_stride_y      = 1
+	pad_x_left         = 0
+	pad_x_right        = 0
+	pad_y_top          = 0
+	pad_y_bottom       = 0
+	dilation_x         = 1
+	dilation_y         = 1
+	pra_truncate       = 0
+	in_precision       = 0
+	out_precision      = 0
+	pad_val            = 0
+	in_cvt             =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	out_cvt            =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	exit 
+	EXIT 
+	data idx 2  ape_cmd_queue[20].surface_addr 80001072 
+	data idx 2  ape_cmd_queue[20].op_addr 8000003A 
+	EXIT 
+	data idx 2  ape_cmd_queue[21].surface_addr 80001072 
+	data idx 2  ape_cmd_queue[21].op_addr 8000003A 
+	EXIT 
+	data idx 6  ape_cmd_queue[22].surface_addr 800012F6 
+	data idx 6  ape_cmd_queue[22].op_addr 800000AE 
+	EXIT 
+	data idx 6  ape_cmd_queue[23].surface_addr 800012F6 
+	data idx 6  ape_cmd_queue[23].op_addr 800000AE 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	x1_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 64
+	    size          = 128
+	    line_stride   = 16
+	    surf_stride   = 16
+	    plane_stride  = 0
+	]
+	x2_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	y_data              = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_op_desc
+	---------------------------------------------------------
+	src_precision    = 0
+	dst_precision    = 0
+	lut_index        = -1
+	out_cvt          =
+	[ scale = 18257, truncate = 21, enable = 1, offset = 0 ]
+	conv_mode        = 0
+	batch_num        = 1
+	batch_stride     = 0
+	x1_op            = [ ape_sdp_op =>
+	    enable         = 1
+	    alu_type       = 2
+	    type           = 2
+	    mode           = 1
+	    act            = 1
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 1
+	    alu_operand    = 0
+	    mul_operand    = 1
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	x2_op            = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	y_op             = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	exit
+	EXIT 
+	data idx 6  ape_cmd_queue[24].surface_addr 800012F6 
+	data idx 6  ape_cmd_queue[24].op_addr 800000AE 
+	EXIT 
+	data idx 6  ape_cmd_queue[25].surface_addr 800012F6 
+	data idx 6  ape_cmd_queue[25].op_addr 800000AE 
+	EXIT 
+	data idx 3  ape_cmd_queue[26].surface_addr 80001113 
+	data idx 3  ape_cmd_queue[26].op_addr 80000057 
+	EXIT 
+	data idx 3  ape_cmd_queue[27].surface_addr 80001113 
+	data idx 3  ape_cmd_queue[27].op_addr 80000057 
+	EXIT 
+	data idx 7  ape_cmd_queue[28].surface_addr 80001397 
+	data idx 7  ape_cmd_queue[28].op_addr 800000CB 
+	EXIT 
+	data idx 7  ape_cmd_queue[29].surface_addr 80001397 
+	data idx 7  ape_cmd_queue[29].op_addr 800000CB 
+	enter
+	*********************************************************
+	---------------------------------------------------------
+	weight_data         = [ data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 3
+	    height        = 3
+	    channel       = 64
+	    size          = 36864
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wmb_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wgs_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	src_data            = [ data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	dst_data            = [ data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	offset_u            = 0
+	in_line_uv_stride   = 0
+	*********************************************************
+	APE FW ROI[1]: ape_conv_op_desc
+	---------------------------------------------------------
+	conv_mode          = 0
+	data_reuse         = 0
+	weight_reuse       = 0
+	skip_data_rls      = 0
+	skip_weight_rls    = 0
+	entry_per_slice    = 112
+	data_format        = 36
+	pixel_mapping      = 0
+	fetch_grain        = 1
+	batch              = 1
+	weight_format      = 0
+	data_bank          = 13
+	weight_bank        = 3
+	batch_stride       = 0
+	post_extension     = 0
+	pixel_override     = 1
+	release            = 56
+	input_width_csc    = 56
+	input_height_csc   = 56
+	input_channel_csc  = 64
+	kernel_width_csc   = 3
+	kernel_height_csc  = 3
+	kernel_channel_csc = 64
+	input_width_cmac   = 56
+	input_height_cmac  = 56
+	bytes_per_kernel   = 576
+	mean_ry            = 0
+	mean_gu            = 0
+	mean_bv            = 0
+	mean_ax            = 0
+	mean_format        = 0
+	conv_stride_x      = 1
+	conv_stride_y      = 1
+	pad_x_left         = 1
+	pad_x_right        = 1
+	pad_y_top          = 1
+	pad_y_bottom       = 1
+	dilation_x         = 1
+	dilation_y         = 1
+	pra_truncate       = 0
+	in_precision       = 0
+	out_precision      = 0
+	pad_val            = 0
+	in_cvt             =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	out_cvt            =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	exit 
+	EXIT 
+	data idx 5  ape_cmd_queue[30].surface_addr 80001255 
+	data idx 5  ape_cmd_queue[30].op_addr 80000091 
+	EXIT 
+	data idx 5  ape_cmd_queue[31].surface_addr 80001255 
+	data idx 5  ape_cmd_queue[31].op_addr 80000091 
+	EXIT 
+	data idx 8  ape_cmd_queue[32].surface_addr 80001438 
+	data idx 8  ape_cmd_queue[32].op_addr 800000E8 
+	EXIT 
+	data idx 8  ape_cmd_queue[33].surface_addr 80001438 
+	data idx 8  ape_cmd_queue[33].op_addr 800000E8 
+	enter
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_surface_desc
+	---------------------------------------------------------
+	src_data            = [ ape_data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	x1_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 64
+	    size          = 128
+	    line_stride   = 16
+	    surf_stride   = 16
+	    plane_stride  = 0
+	]
+	x2_data             = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	y_data              = [ ape_data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	dst_data            = [ ape_data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	*********************************************************
+	APE FW ROI[1]: ape_sdp_op_desc
+	---------------------------------------------------------
+	src_precision    = 0
+	dst_precision    = 0
+	lut_index        = -1
+	out_cvt          =
+	[ scale = 28211, truncate = 24, enable = 1, offset = 0 ]
+	conv_mode        = 0
+	batch_num        = 1
+	batch_stride     = 0
+	x1_op            = [ ape_sdp_op =>
+	    enable         = 1
+	    alu_type       = 2
+	    type           = 2
+	    mode           = 1
+	    act            = 1
+	    shift_value    = 1
+	    truncate       = 0
+	    precision      = 1
+	    alu_operand    = 0
+	    mul_operand    = 1
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	x2_op            = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	y_op             = [ ape_sdp_op =>
+	    enable         = 0
+	    alu_type       = 0
+	    type           = 0
+	    mode           = 0
+	    act            = 0
+	    shift_value    = 0
+	    truncate       = 0
+	    precision      = 0
+	    alu_operand    = 0
+	    mul_operand    = 0
+	cvt.alu_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	cvt.mul_cvt          =
+	[ scale = 0, truncate = 0, enable = 0, offset = 0 ]
+	]
+	exit
+	EXIT 
+	data idx 8  ape_cmd_queue[34].surface_addr 80001438 
+	data idx 8  ape_cmd_queue[34].op_addr 800000E8 
+	EXIT 
+	data idx 8  ape_cmd_queue[35].surface_addr 80001438 
+	data idx 8  ape_cmd_queue[35].op_addr 800000E8 
+	EXIT 
+	data idx 9  ape_cmd_queue[36].surface_addr 800014D9 
+	data idx 9  ape_cmd_queue[36].op_addr 80000105 
+	EXIT 
+	data idx 9  ape_cmd_queue[37].surface_addr 800014D9 
+	data idx 9  ape_cmd_queue[37].op_addr 80000105 
+	enter
+	*********************************************************
+	---------------------------------------------------------
+	weight_data         = [ data_cube =>
+	    type          = 0
+	    address       = 1
+	    width         = 1
+	    height        = 1
+	    channel       = 64
+	    size          = 16384
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wmb_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	wgs_data            = [ data_cube =>
+	    type          = 0
+	    address       = 0
+	    width         = 0
+	    height        = 0
+	    channel       = 0
+	    size          = 0
+	    line_stride   = 0
+	    surf_stride   = 0
+	    plane_stride  = 0
+	]
+	src_data            = [ data_cube =>
+	    type          = 0
+	    address       = 2
+	    width         = 56
+	    height        = 56
+	    channel       = 64
+	    size          = 200704
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	dst_data            = [ data_cube =>
+	    type          = 2
+	    address       = -1
+	    width         = 56
+	    height        = 56
+	    channel       = 256
+	    size          = 802816
+	    line_stride   = 448
+	    surf_stride   = 25088
+	    plane_stride  = 0
+	]
+	offset_u            = 0
+	in_line_uv_stride   = 0
+	*********************************************************
+	APE FW ROI[1]: ape_conv_op_desc
+	---------------------------------------------------------
+	conv_mode          = 0
+	data_reuse         = 0
+	weight_reuse       = 0
+	skip_data_rls      = 0
+	skip_weight_rls    = 0
+	entry_per_slice    = 112
+	data_format        = 36
+	pixel_mapping      = 0
+	fetch_grain        = 1
+	batch              = 1
+	weight_format      = 0
+	data_bank          = 13
+	weight_bank        = 1
+	batch_stride       = 0
+	post_extension     = 0
+	pixel_override     = 1
+	release            = 56
+	input_width_csc    = 56
+	input_height_csc   = 56
+	input_channel_csc  = 64
+	kernel_width_csc   = 1
+	kernel_height_csc  = 1
+	kernel_channel_csc = 64
+	input_width_cmac   = 56
+	input_height_cmac  = 56
+	bytes_per_kernel   = 64
+	mean_ry            = 0
+	mean_gu            = 0
+	mean_bv            = 0
+	mean_ax            = 0
+	mean_format        = 0
+	conv_stride_x      = 1
+	conv_stride_y      = 1
+	pad_x_left         = 0
+	pad_x_right        = 0
+	pad_y_top          = 0
+	pad_y_bottom       = 0
+	dilation_x         = 1
+	dilation_y         = 1
+	pra_truncate       = 0
+	in_precision       = 0
+	out_precision      = 0
+	pad_val            = 0
+	in_cvt             =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	out_cvt            =
+	[ scale = 1, truncate = 0, enable = 1, offset = 0 ]
+	exit 

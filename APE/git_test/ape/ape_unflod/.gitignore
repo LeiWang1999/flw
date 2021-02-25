@@ -1,0 +1,9 @@
+*~
+*.o
+*.d
+/build/
+.vscode/
+app/.gitkeep
+src/.gitkeep
+include/.gitkeep
+ext/.gitkeep
